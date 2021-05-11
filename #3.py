@@ -7,6 +7,19 @@ def prime(p):
         return True
     else:
         return False
+    
+'''faster definition of prime(p):
+def prime(p):
+    if p == 1:
+        return False
+    factors = 0
+    for i in range(2, m.floor(np.sqrt(p))+1):
+        if ((p % i) == 0):
+            factors += 1
+    if factors == 0:
+        return True
+    else:
+        return False'''
         
     
 def largest_prime(n):
